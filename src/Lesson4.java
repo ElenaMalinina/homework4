@@ -117,6 +117,7 @@ public class Lesson4 {
             }
             return false;
         }
+        // Вариант подсчета победы с урока
     //    {
 //        if (map[0][0] == symb && map[0][1] == symb && map[0][2] == symb) {
 //            return true;
@@ -144,6 +145,7 @@ public class Lesson4 {
 //        }
 //        return false;
 //        }
+    //вариант подсчета победы в дз
     static boolean fullStrike(char symb, int rowStrike, int columnStrike) {
         for (int row = rowStrike; row < (DOTS_TO_WIN + rowStrike); row++) {
             int horizontalLine = 0;
